@@ -1,7 +1,7 @@
 Mono Project Website [![Build Status](https://travis-ci.org/mono/website.svg)](https://travis-ci.org/mono/website)
 ==================================================================================================================
 
-This repository contains the files used for generating the [Mono website](http://www.mono-project.com).
+This repository contains the file used for generating the [Mono website](http://www.mono-project.com).
 
 The site uses [Jekyll](http://jekyllrb.com), a static site generator. GitHub Pages, where the site is hosted, natively supports Jekyll so every time someone pushes to this repository, the website will be built and updated. For hosting it yourself, see [Setting up a local copy of the website](#setting-up-a-local-copy-of-the-website).
 
@@ -24,7 +24,7 @@ After you've finished your changes, enter a proper summary and description and c
 Setting up a local copy of the website
 --------------------------------------
 
-For larger changes, using the web-based editor on GitHub is not really convenient. A better way is to setup a local copy of the website where you can experiment.
+For large changes, using the web-based editor on GitHub is not really convenient. A better way is to setup a local copy of the website where you can experiment.
 
 ### Dependencies
 
@@ -63,4 +63,4 @@ Writing a blog post
 
 Blogging is very easy with Jekyll. Browse to `_posts` directory, copy the Markdown file `_TEMPLATE.md` and rename that file following the file name convention: `YEAR-MONTH-DAY-title.md`. Then open the file you renamed and follow the steps there to complete writing a blog post.
 
-Make sure to not include special characters in the file name. The blog entry's publishing date is automatically extracted from the file name.
+Make sure do not include special characters in the file name. The blog entry's publishing date is automatically extracted from the file name.
